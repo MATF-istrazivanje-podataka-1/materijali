@@ -1,0 +1,24 @@
+[project]
+name = "materijali"
+version = "0.1.0"
+description = "Materijali za kurs Istrazivanje podataka 1."
+requires-python = ">=3.11"
+dependencies = [
+    "apriori-python>=1.0.4",
+    "fuzzy-c-means>=1.7.2",
+    "imbalanced-learn>=0.13.0,<1.0.0",
+    "ipykernel>=6.29.5,<8.0.0",
+    "joblib>=1.4.2",
+    "jupyterlab>=4.3.4,<5.0.0",
+    "matplotlib>=3.10.0,<4.0.0",
+    "numpy>=1.26.4,<2.0.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3,<3.0.0",
+    "scikit-learn>=1.6.0,<2.0.0",
+    "scipy>=1.15.0,<2.0.0",
+    "seaborn>=0.13.2,<1.0.0",
+    "termcolor>=2.5.0,<4.0.0",
+]
+
+[tool.uv]
+package = false

@@ -1,2 +1,12 @@
-# materijali_2025-2026
-Materijali za kurs Istraživnaje podataka 1 za školsku 2025/2026
+# Материјали за курс Истраживања података 1
+
+За управљање пројектом и библиотекама користи се `uv`.
+Потребно је прво њега инсталирати, па након клонирања репозиторијума покренути синхронизацију.
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+git clone https://github.com/MATF-istrazivanje-podataka-1/materijali.git
+cd materijali
+uv sync
+```
+На овај начин ће аутоматски бити преузета одговарајућа верзија Python-a, креирано виртуелно окружење и инсталиране све потребне библиотеке.
